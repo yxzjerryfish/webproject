@@ -12,10 +12,15 @@
 </template>
 
 <script>
+import header from "../components/layout/head.vue"
+
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  comments: {
+    header
   }
 }
 </script>
