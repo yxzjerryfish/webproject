@@ -51,7 +51,7 @@ export default {
 .head-tools {
   text-align: right;
   float: right;
-  width: 230px;
+  width: 130px;
   margin-right: 16px;
 }
 .el-dropdown-link {

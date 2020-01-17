@@ -2,13 +2,13 @@
   <div class="my-header">
     <el-row>
       <el-col :span="24">
-          1234
         <!-- Logo 显示-->
         <Logo />
-        <!--一级主菜单区域-->
-        <MainMenu >123</MainMenu>
         <!-- 右侧工具栏（包含用户登录信息） -->
         <Tools />
+        <div class="head-font">
+            这是主要显示内容
+        </div>
       </el-col>
     </el-row>
   </div>
@@ -16,14 +16,12 @@
 
 <script>
 import Logo from "@/components/layout/header/Logo.vue";
-import MainMenu from "@/components/layout/header/MainMenu.vue";
 import Tools from "@/components/layout/header/Tools.vue";
 
 export default {
   name: "MyHead",
   components: {
     Logo,
-    MainMenu,
     Tools
   }
 };
@@ -38,5 +36,9 @@ export default {
   line-height: 60px;
   background-color: rgb(84, 92, 100);
   color: #ffffff;
+}
+.my-header .head-font{
+    width: 50%;
+    text-align:center
 }
 </style>
