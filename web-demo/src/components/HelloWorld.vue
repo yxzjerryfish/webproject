@@ -1,6 +1,8 @@
 <template>
 <el-container>
-  <el-header>Header</el-header>
+  <el-header>
+    <my-head></my-head>
+  </el-header>
   <el-container>
     <el-aside width="200px">Aside</el-aside>
     <el-container>
@@ -12,15 +14,15 @@
 </template>
 
 <script>
-import header from "../components/layout/head.vue"
+import MyHead from "../components/layout/MyHead"
 
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
   },
-  comments: {
-    header
+  components: {
+    MyHead
   }
 }
 </script>

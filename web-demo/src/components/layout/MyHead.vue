@@ -1,7 +1,8 @@
 <template>
-  <div class="wisrc-header">
+  <div class="my-header">
     <el-row>
       <el-col :span="24">
+          1234
         <!-- Logo 显示-->
         <Logo />
         <!--一级主菜单区域-->
@@ -14,12 +15,12 @@
 </template>
 
 <script>
-import Logo from "@/components/layout/Logo.vue";
-import MainMenu from "@/components/layout/MainMenu.vue";
-import Tools from "@/components/layout/Tools.vue";
+import Logo from "@/components/layout/header/Logo";
+import MainMenu from "@/components/layout/header/MainMenu";
+import Tools from "@/components/layout/header/Tools";
 
 export default {
-  name: "header",
+  name: "MyHead",
   components: {
     Logo,
     MainMenu,
@@ -29,7 +30,7 @@ export default {
 </script>
 
 <style scoped>
-.wisrc-header {
+.my-header {
   height: 60px;
   width: 100%;
   text-align: left;
