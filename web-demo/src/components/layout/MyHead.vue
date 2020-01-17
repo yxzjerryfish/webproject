@@ -6,7 +6,7 @@
         <!-- Logo 显示-->
         <Logo />
         <!--一级主菜单区域-->
-        <MainMenu />
+        <MainMenu >123</MainMenu>
         <!-- 右侧工具栏（包含用户登录信息） -->
         <Tools />
       </el-col>
@@ -15,9 +15,9 @@
 </template>
 
 <script>
-import Logo from "@/components/layout/header/Logo";
-import MainMenu from "@/components/layout/header/MainMenu";
-import Tools from "@/components/layout/header/Tools";
+import Logo from "@/components/layout/header/Logo.vue";
+import MainMenu from "@/components/layout/header/MainMenu.vue";
+import Tools from "@/components/layout/header/Tools.vue";
 
 export default {
   name: "MyHead",
