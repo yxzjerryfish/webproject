@@ -4,7 +4,7 @@
     <my-head></my-head>
   </el-header>
   <el-container>
-    <el-aside width="200px">Aside</el-aside>
+    <el-aside width="250px"><aside-menu /></el-aside>
     <el-container>
       <el-main>Main</el-main>
       <el-footer>Footer</el-footer>
@@ -15,6 +15,7 @@
 
 <script>
 import MyHead from "../components/layout/MyHead"
+import AsideMenu from "../components/aside/AsideMenu"
 
 export default {
   name: 'HelloWorld',
@@ -22,7 +23,8 @@ export default {
     msg: String
   },
   components: {
-    MyHead
+    MyHead,
+    AsideMenu
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="head-logo">
+  <div class="head-logo" >
             <img src="/favicon.ico" class="round_icon"  alt="" @click="hello()">
       </div>
 </template>
