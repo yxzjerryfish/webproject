@@ -1,18 +1,27 @@
 <template>
   <div id="components-layout-demo-basic">
     <a-layout>
-      <a-layout-header>Header</a-layout-header>
+      <a-layout-header><Header></Header></a-layout-header>
       <a-layout>
-        <a-layout-sider>Sider</a-layout-sider>
+        <a-layout-sider><SideMenu /></a-layout-sider>
         <a-layout-content>Content</a-layout-content>
       </a-layout>
-      <a-layout-footer>Footer</a-layout-footer>
+      <a-layout-footer><Foot /></a-layout-footer>
     </a-layout>
   </div>
 </template>
 
 <script>
-export default {};
+import Header from "./Header";
+import SideMenu from "./SideMenu";
+import Foot from "./Foot";
+export default {
+  components: {
+    Header,
+    SideMenu,
+    Foot
+  }
+};
 </script>
 
 <style>

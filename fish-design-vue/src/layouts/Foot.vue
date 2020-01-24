@@ -1,14 +1,11 @@
 <template>
-    <div>
-        Foot
-    </div>
+  <div>
+    my-Foot
+  </div>
 </template>
 
 <script>
-export default {
-    
-}
+export default {};
 </script>
 
-<style>
-</style>
+<style></style>

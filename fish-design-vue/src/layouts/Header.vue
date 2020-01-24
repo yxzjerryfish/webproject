@@ -1,14 +1,11 @@
 <template>
-    <div>
-        header
-    </div>
+  <div>
+    my-header
+  </div>
 </template>
 
 <script>
-export default {
-    
-}
+export default {};
 </script>
 
-<style>
-</style>
+<style></style>
