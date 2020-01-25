@@ -4,7 +4,9 @@
       <a-layout-header><Header></Header></a-layout-header>
       <a-layout>
         <a-layout-sider><SideMenu /></a-layout-sider>
-        <a-layout-content>Content</a-layout-content>
+        <a-layout-content
+          ><MainPageContainer></MainPageContainer
+        ></a-layout-content>
       </a-layout>
       <a-layout-footer><Foot /></a-layout-footer>
     </a-layout>
@@ -15,11 +17,13 @@
 import Header from "./Header";
 import SideMenu from "./SideMenu";
 import Foot from "./Foot";
+import MainPageContainer from "./MainPageContainer";
 export default {
   components: {
     Header,
     SideMenu,
-    Foot
+    Foot,
+    MainPageContainer
   }
 };
 </script>
