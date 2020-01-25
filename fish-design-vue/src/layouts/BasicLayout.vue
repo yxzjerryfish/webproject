@@ -43,13 +43,13 @@ export default {
 #components-layout-demo-basic .ant-layout-sider {
   background: #3ba0e9;
   color: #fff;
-  line-height: 120px;
+  line-height: 700px;
 }
 #components-layout-demo-basic .ant-layout-content {
   background: rgba(16, 142, 233, 1);
   color: #fff;
-  min-height: 120px;
-  line-height: 120px;
+  min-height: 700px;
+  line-height: 800px;
 }
 #components-layout-demo-basic > .ant-layout {
   margin-bottom: 48px;
