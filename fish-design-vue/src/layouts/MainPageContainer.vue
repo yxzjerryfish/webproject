@@ -8,11 +8,13 @@
         :closable="pane.closable"
       >
         {{ pane.content }}
+        <MainPage />
       </a-tab-pane>
     </a-tabs>
   </div>
 </template>
 <script>
+import MainPage from "./MainPage";
 export default {
   data() {
     const panes = [
@@ -59,6 +61,9 @@ export default {
       this.panes = panes;
       this.activeKey = activeKey;
     }
+  },
+  components: {
+    MainPage
   }
 };
 </script>
