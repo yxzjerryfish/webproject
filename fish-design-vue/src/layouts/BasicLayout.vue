@@ -36,6 +36,7 @@ export default {
 #components-layout-demo-basic .ant-layout-footer {
   background: #7dbcea;
   color: #fff;
+  padding-left: 0%;
 }
 #components-layout-demo-basic .ant-layout-footer {
   line-height: 1.5;
