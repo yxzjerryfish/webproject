@@ -8,6 +8,7 @@
         :closable="pane.closable"
       >
         {{ pane.content }}
+        <router-view></router-view>
         <MainPage />
       </a-tab-pane>
     </a-tabs>
